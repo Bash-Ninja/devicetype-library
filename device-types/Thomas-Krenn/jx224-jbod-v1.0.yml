@@ -1,0 +1,73 @@
+---
+manufacturer: Thomas Krenn AG
+model: Jx224 JBOD (V1.0)
+slug: thomas-krenn-jx224-jbod-v1-0
+u_height: 2
+is_full_depth: true
+subdevice_role: parent
+weight: 15
+weight_unit: kg
+airflow: front-to-rear
+front_image: true
+rear_image: true
+comments: |
+  [Thomas-Krenn 2U JBOD storage expansion unit Jx224](https://www.thomas-krenn.com/en/products/storage/jbod/)
+
+  24-Bay JBOD storage expansion
+  Broadcom HBA 9500-8e SAS-SATA-NVMe controller
+  2x 800W redundant hot-swap power supplies
+  Mini-SAS HD connectivity
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
+device-bays:
+  - name: Bay 0
+    label: '0'
+  - name: Bay 1
+    label: '1'
+  - name: Bay 2
+    label: '2'
+  - name: Bay 3
+    label: '3'
+  - name: Bay 4
+    label: '4'
+  - name: Bay 5
+    label: '5'
+  - name: Bay 6
+    label: '6'
+  - name: Bay 7
+    label: '7'
+  - name: Bay 8
+    label: '8'
+  - name: Bay 9
+    label: '9'
+  - name: Bay 10
+    label: '10'
+  - name: Bay 11
+    label: '11'
+  - name: Bay 12
+    label: '12'
+  - name: Bay 13
+    label: '13'
+  - name: Bay 14
+    label: '14'
+  - name: Bay 15
+    label: '15'
+  - name: Bay 16
+    label: '16'
+  - name: Bay 17
+    label: '17'
+  - name: Bay 18
+    label: '18'
+  - name: Bay 19
+    label: '19'
+  - name: Bay 20
+    label: '20'
+  - name: Bay 21
+    label: '21'
+  - name: Bay 22
+    label: '22'
+  - name: Bay 23
+    label: '23'

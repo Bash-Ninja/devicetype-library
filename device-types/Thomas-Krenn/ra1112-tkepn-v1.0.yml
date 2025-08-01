@@ -1,0 +1,64 @@
+---
+manufacturer: Thomas Krenn AG
+model: RA1112-TKEPN (V1.0)
+slug: thomas-krenn-ra1112-tkepn-v1-0
+u_height: 1
+is_full_depth: true
+subdevice_role: parent
+weight: 18
+weight_unit: kg
+airflow: front-to-rear
+front_image: true
+rear_image: true
+comments: |
+  [Thomas-Krenn 1U AMD single-CPU RA1112-TKEPN server](https://www.thomas-krenn.com/en/products/rack-server/1u-servers/amd-single-cpu/1u-amd-single-cpu-ra1112-tkepn-server.html)
+
+  12-Bay server with 10x NVMe + 2x SAS/SATA support
+  AMD EPYC processor support
+  Multiple high-speed network interfaces
+interfaces:
+  - name: 10G-1
+    type: 10gbase-t
+  - name: 10G-2
+    type: 10gbase-t
+  - name: 25G-1
+    type: 25gbase-x-sfp28
+  - name: 25G-2
+    type: 25gbase-x-sfp28
+  - name: 100G-1
+    type: 100gbase-x-qsfp28
+  - name: 100G-2
+    type: 100gbase-x-qsfp28
+  - name: IPMI
+    type: 1000base-t
+    mgmt_only: true
+module-bays:
+  - name: PSU1
+    position: '1'
+  - name: PSU2
+    position: '2'
+device-bays:
+  - name: Bay 0
+    label: '0'
+  - name: Bay 1
+    label: '1'
+  - name: Bay 2
+    label: '2'
+  - name: Bay 3
+    label: '3'
+  - name: Bay 4
+    label: '4'
+  - name: Bay 5
+    label: '5'
+  - name: Bay 6
+    label: '6'
+  - name: Bay 7
+    label: '7'
+  - name: Bay 8
+    label: '8'
+  - name: Bay 9
+    label: '9'
+  - name: Bay 10
+    label: '10'
+  - name: Bay 11
+    label: '11'
